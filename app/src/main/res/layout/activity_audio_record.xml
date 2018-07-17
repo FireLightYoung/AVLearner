@@ -5,19 +5,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     android:orientation="vertical"
     tools:context=".audio.AudioRecordActivity">
 
     <Button
-        android:id="@+id/record_btn"
+        android:id="@+id/record_start_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="点击录制"/>
+        android:text="点击开始录制"/>
 
     <Button
-        android:id="@+id/paly_btn"
+        android:id="@+id/record_stop_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="点击录制"/>
+        android:text="点击停止录制"/>
+
+    <Button
+        android:id="@+id/play_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击播放"/>
+
+    <Button
+        android:id="@+id/clear_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击清除"/>
 
 </LinearLayout>
